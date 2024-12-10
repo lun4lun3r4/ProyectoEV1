@@ -1,0 +1,104 @@
+/* Importar la fuente Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+/* Variables de colores */
+:root {
+    --clr-main: #45880e; /* Verde oscuro */
+    --clr-main-light: #73ff00; /* Verde claro */
+    --clr-white: #fff7e5; /* Blanco cálido */
+    --clr-gray: #e2e2e2; /* Gris claro */
+    --clr-green: #316b0a; /* Verde medio */
+    --clr-red: #961818; /* Rojo oscuro */
+}
+
+/* Reset y estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--clr-main); 
+    color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del login */
+.login-container {
+    background-color: var(--clr-white); 
+    color: var(--clr-main); 
+    padding: 3rem 2rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 45rem; 
+    height: 30rem; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+/* Título del login */
+.login-title {
+    font-size: 2rem; 
+    margin-bottom: 2rem; 
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 1rem; 
+    border: 1px solid var(--clr-gray); 
+    border-radius: 5px; 
+    font-size: 1rem; 
+    margin: 0 auto;
+    margin-bottom: 1rem; 
+}
+
+input:focus {
+    outline: none; 
+    border-color: var(--clr-main); 
+}
+
+/* Botones */
+button {
+    width: 90%; 
+    padding: 1rem; 
+    font-size: 1.2rem; 
+    border-radius: 5px;
+    cursor: pointer; 
+    border: none; 
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--clr-main-light);
+    color: var(--clr-white); 
+}
+
+.btn-primary:hover {
+    background-color: var(--clr-main); 
+    color: var(--clr-white); 
+}
+
+.btn-secondary {
+    background-color: var(--clr-green); 
+    color: var(--clr-white); 
+}
+
+.btn-secondary:hover {
+    background-color: var(--clr-main); 
+    color: var(--clr-white); 
+}
+
+/* Mensajes de error */
+.error-message {
+    font-size: 1rem; 
+    padding-bottom: 10px;
+    color: var(--clr-red); 
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/comun.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1 class="login-title">Login</h1>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Nombre de usuario" >
+            <input type="password" id="password" placeholder="Contraseña" >
+            <div id="error-message" class="error-message"></div>
+            <button type="submit" class="btn-primary">Entrar a CarbaShop</button>
+            <button type="button" class="btn-secondary" onclick="limpiarFormulario()">Limpiar Datos</button>
+        </form>
+    </div>
+
+    <script src="./js/validaciones.js"></script>
+</body>
+</html>
