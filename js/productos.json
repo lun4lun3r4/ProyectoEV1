@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "nombre": "Móvil 01",
+        "precio": 500,
+        "imagen": "./img/moviles/01.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Móvil 02",
+        "precio": 600,
+        "imagen": "./img/moviles/02.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Móvil 03",
+        "precio": 450,
+        "imagen": "./img/moviles/03.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Móvil 04",
+        "precio": 700,
+        "imagen": "./img/moviles/04.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Móvil 05",
+        "precio": 800,
+        "imagen": "./img/moviles/05.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Portátil 01",
+        "precio": 1000,
+        "imagen": "./img/portatiles/01.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Portátil 02",
+        "precio": 1200,
+        "imagen": "./img/portatiles/02.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Portátil 03",
+        "precio": 1300,
+        "imagen": "./img/portatiles/03.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Portátil 04",
+        "precio": 1400,
+        "imagen": "./img/portatiles/04.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Portátil 05",
+        "precio": 1500,
+        "imagen": "./img/portatiles/05.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Portátil 06",
+        "precio": 1100,
+        "imagen": "./img/portatiles/06.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Portátil 07",
+        "precio": 1150,
+        "imagen": "./img/portatiles/07.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Portátil 08",
+        "precio": 1250,
+        "imagen": "./img/portatiles/08.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Televisión 01",
+        "precio": 600,
+        "imagen": "./img/televisiones/01.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Televisión 02",
+        "precio": 700,
+        "imagen": "./img/televisiones/02.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Televisión 03",
+        "precio": 800,
+        "imagen": "./img/televisiones/03.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Televisión 04",
+        "precio": 900,
+        "imagen": "./img/televisiones/04.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Televisión 05",
+        "precio": 1000,
+        "imagen": "./img/televisiones/05.jpg"
+    }
+]
