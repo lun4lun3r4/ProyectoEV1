@@ -34,8 +34,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     // Si todo está bien, redirigir al portal
     errorMessage.textContent = "";
     alert("Acceso exitoso a CarbaShop");
-    // Aquí iría la redirección, por ejemplo:
-    // window.location.href = "main.html";
+    window.location.href = "main.html";
 });
 
 function limpiarFormulario() {
